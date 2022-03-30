@@ -32,6 +32,6 @@ jobs:
       - name: Where am i?
         run: pwd
       - name: mv
-        run: cd ./AutoTest/android && ls
-
+        run: cd AutoTest/android
+      - uses: bamachoub/react-native-build-action@v1.0.0
 

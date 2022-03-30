@@ -32,7 +32,6 @@ jobs:
       - name: Where am i?
         run: pwd
       - name: mv
-        run: cd ./AutoTest/android
-      - name: ls
-        run: ls
+        run: cd ./AutoTest/android && ls
+
 
